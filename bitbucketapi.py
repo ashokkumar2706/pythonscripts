@@ -3,8 +3,10 @@ from requests.auth import HTTPBasicAuth
 
 ##Login
 username = 'xxx'
-password = 'xxx'
-#team = 'xxx'
+base64_pass = 'xxxxxxxx'
+base64_bytes = base64_pass.encode('ascii')
+pass_bytes = base64.b64decode(base64_bytes)
+password = pass_bytes.decode('ascii')
 
 full_repo_list = []
 
