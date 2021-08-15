@@ -1,0 +1,18 @@
+curl -v https://api.bitbucket.org/2.0/repositories/ashok2706/testrepo/pullrequests \
+  -u ashok2706:Password01 \
+  --request POST \
+  --header 'Content-Type: application/json' \
+  --data '{                                          
+    "title": "Pull request to master",
+    "description": "pull request creation using api.",
+    "source": {
+      "branch": {
+        "name": "release"
+      }
+    },
+     "destination": {
+      "branch": {
+        "name": "master"
+      }
+    },
+    "reviewers":  [] }' 
