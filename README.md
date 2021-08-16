@@ -1,3 +1,12 @@
+# Bitbucket api request
+
+https://community.atlassian.com/t5/Bitbucket-questions/how-to-create-bitbucket-pull-request-using-bitbucket-rest-api/qaq-p/906404
+
+https://oliver-schoenborn.medium.com/create-pull-requests-programmatically-in-bitbucket-d5e4f7dc9b1b
+
+
+
+
 # pythonscripts
 
 https://www.middlewareinventory.com/blog/bitbucket-list-repositories/
